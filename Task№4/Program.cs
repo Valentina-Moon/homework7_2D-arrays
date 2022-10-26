@@ -34,9 +34,9 @@ bool FindNumber(int[,] matr, int number)
 }
 
 Console.WriteLine("Количество строк: ");
- int m = int.Parse(Console.ReadLine() ?? "0");
+int m = int.Parse(Console.ReadLine() ?? "0");
 Console.WriteLine("Количество столбцов: ");
- int n =  int.Parse(Console.ReadLine() ?? "0");
+int n = int.Parse(Console.ReadLine() ?? "0");
 
 int [,] matrix = new int[n, m];
 Console.WriteLine("Массив: ");
