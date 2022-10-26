@@ -1,0 +1,15 @@
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.csproj.AssemblyReference.cache
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.AssemblyInfoInputs.cache
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.AssemblyInfo.cs
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.csproj.CoreCompileInputs.cache
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\bin\Debug\net6.0\Task№7.exe
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\bin\Debug\net6.0\Task№7.deps.json
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\bin\Debug\net6.0\Task№7.runtimeconfig.json
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\bin\Debug\net6.0\Task№7.dll
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\bin\Debug\net6.0\Task№7.pdb
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.dll
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\refint\Task№7.dll
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.pdb
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\Task№7.genruntimeconfig.cache
+C:\Users\Tseh\Desktop\homework7_2D arrays\Task№7\obj\Debug\net6.0\ref\Task№7.dll
