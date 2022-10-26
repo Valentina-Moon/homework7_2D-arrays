@@ -1,11 +1,11 @@
 ﻿//В матрице чисел найти сумму элементов главной диагонали.
-void FillArray(int[,] matr, int min, int max)
+void FillArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            matr[i, j] = new Random().Next(min, max);
+            matr[i, j] = new Random().Next(1, 10);
         }
     }
 }
@@ -42,7 +42,7 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 
 int[,] matrix = new int[m, n];
 Console.WriteLine();
-FillArray(matrix, 1, 10);
+FillArray(matrix);
 PrintArray(matrix);
 Console.WriteLine();
 
