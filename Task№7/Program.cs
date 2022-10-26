@@ -10,25 +10,25 @@ void FillArray(int[,] matr)
         }
     }
 }
-void PrintArray(int[,] array) 
+void PrintArray(int[,] matr) 
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < matr.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write($"{array[i, j]} ");
+            Console.Write($"{matr[i, j]} ");
         }
         Console.WriteLine();
     }
 }
-void Change(int[,] array)
+void Change(int[,] matr)
 { 
     int temp = 0;
-    for (int i = 0; i < array.GetLength(1); i++)
+    for (int i = 0; i < matr.GetLength(1); i++)
     {
-        temp = array[0, i];
-        array[0, i] = array[array.GetLength(0) - 1, i];
-        array[array.GetLength(0) - 1, i] = temp;
+        temp = matr[0, i];
+        matr[0, i] = matr[matr.GetLength(0) - 1, i];
+        matr[matr.GetLength(0) - 1, i] = temp;
     }
 }
 Console.WriteLine("Введите количество строк: ");
