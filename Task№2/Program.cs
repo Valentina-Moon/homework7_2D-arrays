@@ -34,7 +34,7 @@ int n = int.Parse(Console.ReadLine() ?? "0");
 
 int[,] matrix = new int[m, n];
 FillArray(matrix);
-Console.WriteLine("Двумерный массив заполненный по следующим правилом  Amn = m+n: ");
+Console.WriteLine("Двумерный массив заполненный по следующим правилом  A[mn] = m+n: ");
 PrintArray(matrix);
 
 
