@@ -1,7 +1,7 @@
 ﻿//В двумерном массиве заменить элементы, у которых оба индекса чётные на их квадраты
-Console.Write("Введите количество строк m = ");
+Console.Write("Введите количество строк:");
 int m = int.Parse(Console.ReadLine() ?? "0");
-Console.Write("Введите количество столбцов n = ");
+Console.Write("Введите количество столбцов:");
 int n = int.Parse(Console.ReadLine() ?? "0");
 
 void PrintArray(int[,] matr)
