@@ -3,7 +3,7 @@ void PrintArray(int[,] matr)
 {
 
 
-    for (int i = 0;  i< matr.GetLength(0); i++)
+    for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
@@ -22,16 +22,16 @@ void FillArray(int[,] matr)
         }
     }
 }
-void Sum (int [,] matr)
+void Sum(int[,] matr)
 {
-    for (int i = 0; i <  matr.GetLength(0); i++)
+    for (int j = 0; j < matr.GetLength(1); j++)
     {
         double sum = 0;
-        for (int j = 0; j < matr.GetLength(1); j++)
+        for (int i = 0; i < matr.GetLength(0); i++)
         {
-            sum = sum +  matr [i,j];
+            sum = sum + matr[i, j];
         }
-        Console.WriteLine($"Среднее арифместическое значение строки {i+1} равено:   {sum/( matr.GetLength(1))}");
+        Console.WriteLine($"Среднее арифместическое значение столбца {j + 1} равено:   {sum / (matr.GetLength(0))}");
     }
 }
 
