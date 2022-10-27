@@ -1,5 +1,10 @@
 ﻿// В двумерном массиве показать позиции числа, заданного пользователем или указать, что такого элемента нет.
-
+void FillArray(int[,] matr)
+{
+    for (int i = 0; i < matr.GetLength(0); i++)
+        for (int j = 0; j < matr.GetLength(1); j++)
+            matr[i, j] = new Random().Next(0, 10);
+}
 
 void PrintArray(int[,] matr, int m, int n)
 {
@@ -12,13 +17,6 @@ void PrintArray(int[,] matr, int m, int n)
         Console.WriteLine();
     }
 }
-void FillArray(int[,] matr)
-{
-    for (int i = 0; i < matr.GetLength(0); i++)
-        for (int j = 0; j < matr.GetLength(1); j++)
-            matr[i, j] = new Random().Next(0, 10);
-}
-
 void FindIndex(int[,] matr, int number)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
