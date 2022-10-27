@@ -1,11 +1,11 @@
 ﻿//Задать двумерный массив следующим правилом: Aₘₙ = m+n
-void FillArray(int[,] Amatr)
+void FillArray(int[,] matr)
 {
-    for (int m = 0; m < Amatr.GetLength(0); m++)
+    for (int m = 0; m < matr.GetLength(0); m++)
     {
-        for (int n = 0; n < Amatr.GetLength(1); n++)
+        for (int n = 0; n < matr.GetLength(1); n++)
         {
-            Amatr[m, n] = m + n;
+            matr[m, n] = m + n;
         }
 
 
